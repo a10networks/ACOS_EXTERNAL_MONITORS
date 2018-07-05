@@ -13,11 +13,12 @@ METHOD = "GET"
 URI = "/"
 PAYLOAD = None
 RESPONSE_CODE = 200
-RETURN_STRING = '<!doctype html>'
 DATA = None
+
 #SSL Config
 HTTPS = True
 CHECK_CERT = False
+
 #String Match
 #If Exact is True then a explicit match is required else it is a string compair.
 # Example Exact = True: x=x: True
