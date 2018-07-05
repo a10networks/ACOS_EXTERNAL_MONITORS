@@ -52,7 +52,7 @@ def http():
         return requests.post(URL, data=DATA, verify=CHECK_CERT)
 
 
-def handel_response(response, t):
+def handle_response(response, t):
     VALID_RESPONSE_TEXT = False
     VALID_RESPONSE_CODE = False
     status = response.status_code
@@ -85,7 +85,7 @@ def handel_response(response, t):
 t = time.time()
 resp = http()
 t = (time.time() - t)
-handel_response(resp, t)
+handle_response(resp, t)
 
 
 
