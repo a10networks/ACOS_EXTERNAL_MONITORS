@@ -6,10 +6,8 @@ import os, sys, re, requests
 
 
 import time
-# HOST = os.environ['HM_SRV_IPADDR']
-# PORT = int(os.environ['HM_SRV_PORT'])
-HOST = "google.com"
-PORT = 80
+HOST = os.environ['HM_SRV_IPADDR']
+PORT = int(os.environ['HM_SRV_PORT'])
 #HTTP Config
 METHOD = "GET"
 URI = "/"
