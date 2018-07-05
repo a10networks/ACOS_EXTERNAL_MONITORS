@@ -85,7 +85,6 @@ def handel_response(response, t):
 t = time.time()
 resp = http()
 t = (time.time() - t)
-print t
 handel_response(resp, t)
 
 
